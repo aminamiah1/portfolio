@@ -19,11 +19,11 @@ const Landing = () => {
   };
 
   return (
-    <section className="flex justify-center items-start pt-16 lg:pt-24 w-full min-h-screen">
+    <section className="flex justify-center items-start w-full">
       <div className="container mx-auto flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between px-6 lg:px-8">
         <div className="lg:flex-shrink-0 w-48 h-48 lg:w-64 lg:h-64 relative mt-8 lg:mt-0">
           <Image
-            src="/avatar.jpeg" // Replace with your image path
+            src="/avatar.jpeg" 
             alt="Amina Miah"
             layout="fill"
             className="rounded-full"
@@ -51,7 +51,7 @@ const Landing = () => {
             I am an enthusiastic Software Engineer.
           </p>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/aminamiah1"
             className="mt-6 inline-block bg-transparent text-white font-bold py-2 px-4 border border-white rounded-full"
             target="_blank"
             rel="noopener noreferrer"
